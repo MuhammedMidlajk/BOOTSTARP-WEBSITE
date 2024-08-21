@@ -1,0 +1,352 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.maincontainer{
+    background-image:url(./img/IMG-20240815-WA0082.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+
+}
+.navbardiv{
+
+    width: 100%;
+    height: 15%;
+
+}
+.lux{
+
+    position: sticky;
+}
+.navimg img{
+
+    width: 15px;
+    position: absolute;
+   left: 245px;
+    top: -5px;
+
+}
+.navimg2 img{
+
+    width: 13px;
+    position: absolute;
+    left: 210px;
+    top: -6px;
+
+}
+.navimg3 img{
+
+    width: 7px;
+    position: absolute;
+    left: 175px;
+    top: -6px;
+
+}
+
+.navbar img {
+
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.navbar {
+
+    background: transparent !important;
+    position: fixed !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.color a {
+
+    color: white;
+    margin-left: 40px;
+    
+    
+
+}
+
+.brand ul li {
+
+    display: inline-block;
+    transition: 0.7s;
+    margin-top: 20px;
+
+
+}
+.brand ul li a:hover{
+
+    font-weight: bolder;
+    color: lightgrey;
+
+}
+
+
+
+.brand ul li:hover UL {
+
+    display: block;
+    overflow: hidden;
+}
+
+.brand ul li ul li a:hover {
+
+    font-weight: bolder;
+    color: red !important;
+}
+
+.color2 a {
+
+    color: rgb(0, 0, 0) !important;
+
+}
+
+.color3 a {
+
+    color: rgb(0, 0, 0) !important;
+
+}
+.gap{
+
+    margin-left: 100px;
+}
+.search img{
+
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.user img{
+
+    margin-left: 30px;
+    margin-top: 25px;
+
+}
+.cart img{
+
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.buton button{
+
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+  background: linear-gradient(to right,purple,red,rgb(208, 68, 91)) !important ;
+  color: white;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.mainlogo{
+
+display: flex;
+justify-content:center ;
+align-items: center;
+
+ 
+   
+   width: 100%;
+
+}
+.mainlogo img{
+
+    width: 320px;
+}
+.header{
+
+    color: white;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 60px;
+}
+.header h1{
+
+
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+}
+.line{
+
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: white;
+}
+.line p{
+
+    font-family: sans-serif;
+    font-size: 23px;
+}
+.imgcolumn{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    
+
+
+}
+.columnimg1{
+
+    width: 230px;
+    height: 200px;
+    background-image: url(./img/IMG-20240815-WA0078.jpg);
+    border-radius: 10px;
+}
+.columnimg1 img{
+
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+    
+}
+.columnimg2{
+
+    width: 230px;
+    height: 200px;
+    background-image: url(./img/IMG-20240815-WA0079.jpg);
+    border-radius: 10px;
+}
+.columnimg2 img{
+
+    width: 180px;
+    margin-left: 30px;
+    margin-top: 70px;
+    
+    
+}
+.columnimg3{
+
+    width: 230px;
+    height: 200px;
+    background-image: url(./img/IMG-20240815-WA0077.jpg);
+    border-radius: 10px;
+}
+.columnimg3 img{
+
+    width: 180px;
+    margin-left: 10px;
+    margin-top: 75px;
+    
+    
+}
+.columnimg4{
+
+    width: 230px;
+    height: 200px;
+    background-image: url(./img/IMG-20240815-WA0076.jpg);
+    border-radius: 10px;
+}
+.columnimg4 img{
+
+    width: 180px;
+    margin-left: 20px;
+    margin-top: 50px;
+    
+    
+}
+
+.columnimg5{
+
+    width: 230px;
+    height: 200px;
+    background-image: url(./img/IMG-20240815-WA0073.jpg);
+     border-radius: 10px;
+}
+.columnimg5 img{
+
+    width: 180px;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+
+.finalimg{
+
+    display: flex;
+    justify-content: center;
+    /* padding-top: 200px; */
+}
+.finalimg img{
+
+    margin-top: 150px;
+    width: 100%;
+}
+.lastlogo img{
+
+    margin-top: 60px;
+    margin-left: 160px;
+    
+}
+.work {
+    display: flex;
+    margin-left: 300px;
+    margin-top: -30px;
+    color: white;
+    list-style: none;
+}
+
+.liva {
+
+    margin-left: 60px;
+    
+  
+
+}
+.liva ul{
+
+    list-style: none;
+}
+.liva  a{
+
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    font-weight: bolder;
+    
+}
+.liva img{
+
+    width: 20px;
+    
+}
+.liva p{
+
+    color: gray;
+    font-weight: bolder;
+    margin-left: 80px;
+}
+hr{
+    margin-top: -100px;
+    width: 1300px;
+    margin-left: 100px;
+    
+}
+.final p{
+
+    margin-left: 550px;
+    margin-top: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+.livavxd{
+
+    display: flex;
+    gap: 10px;
+    margin-left: 600px;
+
+}
+
+
